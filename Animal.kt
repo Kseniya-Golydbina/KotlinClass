@@ -3,12 +3,12 @@ open class Animal(
     val location: String,
     val name: String) {
         open fun makeNoise() {
-            println("Животное шумит")
+            println("$name шумит")
         }
         open fun eat() {
-            println("Животное питается")
+            println("$name питается")
         }
         fun sleep() {
-            println("Животное спит на $location")
+            println("$name спит на $location")
         }
 }
